@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: Raleway;
+}
+
+.cloud01 {
+  height: 300px;
+  width: auto;
+  margin-left: 60%;
+  padding-top: 150px;
+}
+
+.cloud02 {
+  height: 200px;
+  width: auto;
+  margin-right: 60%;
+}
+
+h1 {
+  font-family: Sacramento, sans-serif;
+  font-size: 70px;
+  /* color: #3edbf0; */
+}
+
+.paragraph01 {
+  font-family: Nunito Sans,serif;
+  font-size: 25px;
+}
+
+.mountain {
+  height: 400px;
+  width: 800px;
+}
+.subt {
+  color: #3edbf0;
+  text-decoration: overline;
+
+}
+
+.user_image {
+
+  border-radius: 50%;
+  height: 250px;
+  width: auto;
+  border-width: 10px;
+  border-top-style: outset;
+  border-right-style: outset;
+  border-left-style: outset;
+  border-bottom-style: outset;
+  border-left-color: #3edbf0;
+  border-top-color: #3edbf0;
+  border-right-color: #ca8a8b;
+  border-bottom-color: #ca8a8b;
+
+}
+.user_image:hover {
+  border-left-color: #ca8a8b;
+  border-top-color: #ca8a8b;
+  border-bottom-color: #3edbf0;
+  border-right-color: #3edbf0;
+}
+
+.space_inbetween {
+  padding: 70px;
+}
+
+
+.subhead {
+  font-size: 32px;
+}
+.middle_para {
+  font-size: 19px;
+}
+
+.line01 {
+  border-style: none;
+  border-top-style: groove;
+  border-width: 10px;
+  border-color: #3edbf0;
+}
+.subt02 {
+
+  margin-right: 70%;
+  font-size: 40px;
+
+}
+.pro {
+  text-decoration: underline;
+}
+
+.c {
+  margin: 0 200px 200px 200px;
+  /* border: 10px 0 0 0; */
+  border-style: ridge;
+  border-width: 10px;
+  border-top-style: none;
+  border-bottom-style: none;
+  border-color: #3edbf0;
+  margin-left: 30%;
+  margin-right: 30%;
+  box-shadow: 10px 10px 8px #888888;
+
+}
+
+.c_img {
+  height: 40px;
+  width: auto;
+}
+.c_text {
+  font-size:45px;
+}
+
+.paragraph {
+  font-size: 27px;
+}
+
+.python_img {
+  height: 40px;
+  width: auto;
+}
+.python_text {
+  font-size: 45px;
+}
+.css_logo {
+  height: 60px;
+  width: auto;
+}
+.about {
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.vertical {
+  /* text-otientation: upright; */
+  font-size: 70px;
+  letter-spacing: 7px;
+  margin-left: 60%;
+}
+.overl {
+  text-decoration: overline;
+}
+.photogr {
+  font-size: 40px;
+  padding-bottom: 100px;
+}
+.graphy {
+  width: 1000px;
+  height: auto;
+  border-style: inset;
+}
