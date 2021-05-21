@@ -1,14 +1,29 @@
+
+.top_line {
+  height: 0.25em;
+  background-color: red;
+
+}
+
 body {
   margin: 0;
   text-align: center;
   font-family: Raleway;
+  background-color: #000000;
+  color: #fdfaf6;
+
+  /* background-color: #feffde; */
 }
 
-.cloud01 {
-  height: 300px;
-  width: auto;
+.orgami {
+  width: 40%;
   margin-left: 60%;
   padding-top: 150px;
+}
+.plane_left {
+  width: 40%;
+  padding-top: 20%;
+  margin-right: 60%;
 }
 
 .cloud02 {
@@ -19,21 +34,20 @@ body {
 
 h1 {
   font-family: Sacramento, sans-serif;
-  font-size: 70px;
-  /* color: #3edbf0; */
+  font-size: 5em;
+
 }
 
 .paragraph01 {
   font-family: Nunito Sans,serif;
-  font-size: 25px;
+  font-size: 40px;
 }
 
-.mountain {
-  height: 400px;
-  width: 800px;
+.stack {
+  width: 60%;
 }
 .subt {
-  color: #3edbf0;
+  color: #e84545;
   text-decoration: overline;
 
 }
@@ -48,27 +62,26 @@ h1 {
   border-right-style: outset;
   border-left-style: outset;
   border-bottom-style: outset;
-  border-left-color: #3edbf0;
-  border-top-color: #3edbf0;
-  border-right-color: #ca8a8b;
-  border-bottom-color: #ca8a8b;
+  border-left-color: #ce1212;
+  border-top-color: #ce1212;
+  border-right-color: #e4efe7;
+  border-bottom-color: #e4efe7;
 
 }
 .user_image:hover {
-  border-left-color: #ca8a8b;
-  border-top-color: #ca8a8b;
-  border-bottom-color: #3edbf0;
-  border-right-color: #3edbf0;
-}
-
-.space_inbetween {
-  padding: 70px;
+  border-left-color: #3edbf0;
+  border-top-color: #3edbf0;
+  border-bottom-color: #ce1212;
+  border-right-color: #ce1212;
 }
 
 
-.subhead {
+
+
+/* .subhead {
   font-size: 32px;
-}
+  color: #ce1212;
+} */
 .middle_para {
   font-size: 19px;
 }
@@ -84,35 +97,27 @@ h1 {
   margin-right: 70%;
   font-size: 40px;
 
+
 }
 .pro {
   text-decoration: underline;
+  color: #ce1212;
 }
 
-.c {
-  margin: 0 200px 200px 200px;
-  /* border: 10px 0 0 0; */
-  border-style: ridge;
-  border-width: 10px;
-  border-top-style: none;
-  border-bottom-style: none;
-  border-color: #3edbf0;
-  margin-left: 30%;
-  margin-right: 30%;
-  box-shadow: 10px 10px 8px #888888;
-
-}
 
 .c_img {
   height: 40px;
   width: auto;
 }
 .c_text {
-  font-size:45px;
+  font-size: 1rem;
 }
 
 .paragraph {
-  font-size: 27px;
+  font-size: 1.125em;
+  text-align: left;
+  width: 60%;
+
 }
 
 .python_img {
@@ -147,4 +152,119 @@ h1 {
   width: 1000px;
   height: auto;
   border-style: inset;
+}
+
+.left_logo {
+  width: 170px;
+  float: left;
+  padding-right:20px;
+
+}
+
+.head {
+  font-size: 2.5rem;
+  text-align: left;
+  height: 10px;
+
+}
+.about_section {
+  font-size: 1.125em;
+  text-align: center;
+  padding: 0 2% 0;
+  line-height: 2;
+  font-family: Jost, sans-serif;
+}
+.blocks {
+  text-align: center;
+  padding-left: 30%;
+  padding-bottom: 6%;
+
+
+}
+.right_logo {
+  float: right;
+  width: 165px;
+  padding-right:36%;
+}
+.c_paragraph {
+  font-size: 1.125em;
+  text-align: left;
+  width: 70%;
+  font-family: Jost, sans-serif;
+  line-height: 2;
+}
+
+.p_paragraph {
+  font-size: 1.125em;
+  text-align: left;
+  width: 50%;
+  line-height: 2;
+  font-family: Jost, sans-serif;
+
+}
+.h_paragraph {
+  font-size: 1.125em;
+  text-align: left;
+  width: 60%;
+  line-height: 2;
+  font-family: Jost, sans-serif;
+}
+.dotted_line {
+  border-style: dotted none none;
+  border-width: 0.43em;
+  width: 7em;
+  border-color: #afb9c8;
+}
+.windows_paragraph {
+  font-size: 1.125em;
+  text-align: left;
+  width: 80%;
+  padding-left: 25%;
+  font-family: Jost, sans-serif;
+  padding-right: 60%;
+
+}
+.unix_paragraph {
+  font-size: 1.125em;
+  text-align: left;
+  position: relative;
+  font-family: Jost, sans-serif;
+  padding-left: 30%;
+
+}
+
+.right_blocks {
+
+  text-align: center;
+  line-height: 2;
+  padding-bottom: 6%;
+
+
+}
+.left_block {
+
+  text-align: center;
+  line-height: 2;
+  padding-bottom: 6%;
+  /* position: absolute; */
+}
+
+.table_in {
+  padding: 7% 10%;
+}
+.unix_div {
+  padding-left: 100px;
+  width: 50%;
+}
+
+.bottom_color {
+  background-color: #ce1f6a;
+  height: 10em;
+
+}
+/* .bottom_touch {
+  padding-top: 10%;
+} */
+.bottom_touch {
+  padding: 1em;
 }
